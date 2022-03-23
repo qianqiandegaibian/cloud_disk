@@ -1,0 +1,220 @@
+[2017-07-15 19:01:03]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-15 19:01:03]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "a80d290b0f69b3fec7257e5338d65f24",
+    "user": "kevin"
+}
+
+[2017-07-15 19:01:03]--[src_cgi/myfiles_cgi.c:176]--line = 9
+[2017-07-15 19:01:03]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-15 19:01:03]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 9,
+    "start": 0,
+    "token": "a80d290b0f69b3fec7257e5338d65f24",
+    "user": "kevin"
+}
+
+[2017-07-15 19:01:03]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = a80d290b0f69b3fec7257e5338d65f24, start = 0, count = 9
+[2017-07-15 19:01:03]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 9 在操作
+[2017-07-15 19:01:03]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"e5c452a06e06da6edbdd9c0e27f9fe8a",
+			"time":	"2017-07-12 08:39:05",
+			"filename":	"a.png",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllmQpmAWvTYAADOHLnjxXg240.png",
+			"size":	52764,
+			"type":	"png"
+		}, {
+			"user":	"kevin",
+			"md5":	"9d377b10ce778c4938b3c7e2c63a229a",
+			"time":	"2017-07-13 02:42:14",
+			"filename":	"Penguins.jpg",
+			"share_status":	1,
+			"pv":	4,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllnQHaAfkYpAAvea_OGt2M232.jpg",
+			"size":	777835,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"ba45c8f60456a672e003a875e469d0eb",
+			"time":	"2017-07-13 10:40:01",
+			"filename":	"Desert.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllnsHGAG7NzAAzodQCbVVc189.jpg",
+			"size":	845941,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"076e3caed758a1c18c91a0e9cae3368f",
+			"time":	"2017-07-13 10:40:58",
+			"filename":	"Chrysanthemum.jpg",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllnsKqAETniAA1rIuRd3Es197.jpg",
+			"size":	879394,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"fafa5efeaf3cbe3b23b2748d13e629a1",
+			"time":	"2017-07-13 10:55:12",
+			"filename":	"Tulips.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllntACAMf2gAAl5WLU-YRY627.jpg",
+			"size":	620888,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"5a44c7ba5bbe4ec867233d67e4806848",
+			"time":	"2017-07-13 19:15:37",
+			"filename":	"Jellyfish.jpg",
+			"share_status":	0,
+			"pv":	2,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlloKUmAMTuEAAvWFkcZHjA991.jpg",
+			"size":	775702,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"8969288f4245120e7c3870287cce0ff3",
+			"time":	"2017-07-13 19:34:59",
+			"filename":	"Lighthouse.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlloLdOAflK_AAiQfKHDaaQ133.jpg",
+			"size":	561276,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"bdf3bf1da3405725be763540d6601144",
+			"time":	"2017-07-14 06:41:50",
+			"filename":	"Hydrangeas.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllnrUKAQ2gMAAkVVGMybN8017.jpg",
+			"size":	595284,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"2b04df3ecc1d94afddff082d139c6f15",
+			"time":	"2017-07-14 06:41:52",
+			"filename":	"Koala.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlloyiCAG7KuAAvqH_kipG8977.jpg",
+			"size":	780831,
+			"type":	"jpg"
+		}]
+}
+[2017-07-15 20:00:05]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2017-07-15 20:00:05]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "83808a0a3516803fcef47e0b5b7087a3",
+    "user": "kevin"
+}
+
+[2017-07-15 20:00:05]--[src_cgi/myfiles_cgi.c:176]--line = 9
+[2017-07-15 20:00:05]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2017-07-15 20:00:05]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 9,
+    "start": 0,
+    "token": "83808a0a3516803fcef47e0b5b7087a3",
+    "user": "kevin"
+}
+
+[2017-07-15 20:00:05]--[src_cgi/myfiles_cgi.c:548]--user = kevin, token = 83808a0a3516803fcef47e0b5b7087a3, start = 0, count = 9
+[2017-07-15 20:00:05]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 9 在操作
+[2017-07-15 20:00:05]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"e5c452a06e06da6edbdd9c0e27f9fe8a",
+			"time":	"2017-07-12 08:39:05",
+			"filename":	"a.png",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllmQpmAWvTYAADOHLnjxXg240.png",
+			"size":	52764,
+			"type":	"png"
+		}, {
+			"user":	"kevin",
+			"md5":	"9d377b10ce778c4938b3c7e2c63a229a",
+			"time":	"2017-07-13 02:42:14",
+			"filename":	"Penguins.jpg",
+			"share_status":	1,
+			"pv":	4,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllnQHaAfkYpAAvea_OGt2M232.jpg",
+			"size":	777835,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"ba45c8f60456a672e003a875e469d0eb",
+			"time":	"2017-07-13 10:40:01",
+			"filename":	"Desert.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllnsHGAG7NzAAzodQCbVVc189.jpg",
+			"size":	845941,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"076e3caed758a1c18c91a0e9cae3368f",
+			"time":	"2017-07-13 10:40:58",
+			"filename":	"Chrysanthemum.jpg",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllnsKqAETniAA1rIuRd3Es197.jpg",
+			"size":	879394,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"fafa5efeaf3cbe3b23b2748d13e629a1",
+			"time":	"2017-07-13 10:55:12",
+			"filename":	"Tulips.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllntACAMf2gAAl5WLU-YRY627.jpg",
+			"size":	620888,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"5a44c7ba5bbe4ec867233d67e4806848",
+			"time":	"2017-07-13 19:15:37",
+			"filename":	"Jellyfish.jpg",
+			"share_status":	0,
+			"pv":	2,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlloKUmAMTuEAAvWFkcZHjA991.jpg",
+			"size":	775702,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"8969288f4245120e7c3870287cce0ff3",
+			"time":	"2017-07-13 19:34:59",
+			"filename":	"Lighthouse.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlloLdOAflK_AAiQfKHDaaQ133.jpg",
+			"size":	561276,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"bdf3bf1da3405725be763540d6601144",
+			"time":	"2017-07-14 06:41:50",
+			"filename":	"Hydrangeas.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllnrUKAQ2gMAAkVVGMybN8017.jpg",
+			"size":	595284,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"2b04df3ecc1d94afddff082d139c6f15",
+			"time":	"2017-07-14 06:41:52",
+			"filename":	"Koala.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFlloyiCAG7KuAAvqH_kipG8977.jpg",
+			"size":	780831,
+			"type":	"jpg"
+		}]
+}

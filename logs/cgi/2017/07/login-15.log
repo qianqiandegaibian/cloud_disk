@@ -1,0 +1,22 @@
+[2017-07-15 19:01:02]--[src_cgi/login_cgi.c:288]--buf = {
+    "pwd": "e10adc3949ba59abbe56e057f20f883e",
+    "user": "kevin"
+}
+
+[2017-07-15 19:01:02]--[src_cgi/login_cgi.c:294]--user = kevin, pwd = e10adc3949ba59abbe56e057f20f883e
+[2017-07-15 19:01:02]--[src_cgi/login_cgi.c:101]--mysql_user = root, mysql_pwd = root, mysql_db = cloud_disk
+[2017-07-15 19:01:02]--[src_cgi/login_cgi.c:161]--redis:[ip=127.0.0.1,port=6379]
+[2017-07-15 19:01:02]--[src_cgi/login_cgi.c:185]--tmp = kevin257774815105
+[2017-07-15 19:01:02]--[src_cgi/login_cgi.c:201]--base64 = 20mByANeVJE1nDdnm+YwRG+Ut+5trQL2
+[2017-07-15 19:01:02]--[src_cgi/login_cgi.c:303]--token = a80d290b0f69b3fec7257e5338d65f24
+[2017-07-15 20:00:05]--[src_cgi/login_cgi.c:288]--buf = {
+    "pwd": "e10adc3949ba59abbe56e057f20f883e",
+    "user": "kevin"
+}
+
+[2017-07-15 20:00:05]--[src_cgi/login_cgi.c:294]--user = kevin, pwd = e10adc3949ba59abbe56e057f20f883e
+[2017-07-15 20:00:05]--[src_cgi/login_cgi.c:101]--mysql_user = root, mysql_pwd = root, mysql_db = cloud_disk
+[2017-07-15 20:00:05]--[src_cgi/login_cgi.c:161]--redis:[ip=127.0.0.1,port=6379]
+[2017-07-15 20:00:05]--[src_cgi/login_cgi.c:185]--tmp = kevin1812973271
+[2017-07-15 20:00:05]--[src_cgi/login_cgi.c:201]--base64 = AvZkp4Mh3xjHvzx5/rJ+AA==
+[2017-07-15 20:00:05]--[src_cgi/login_cgi.c:303]--token = 83808a0a3516803fcef47e0b5b7087a3

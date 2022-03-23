@@ -1,0 +1,24 @@
+[2017-07-16 09:59:12]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=root,database=cloud_disk][2017-07-16 09:59:12]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2017-07-16 10:00:36]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=root,database=cloud_disk][2017-07-16 10:00:36]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2017-07-16 10:08:28]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=root,database=cloud_disk][2017-07-16 10:08:28]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2017-07-16 10:59:30]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=root,database=cloud_disk][2017-07-16 10:59:30]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2017-07-16 14:29:43]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=root,database=cloud_disk][2017-07-16 14:29:43]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2017-07-16 15:42:37]--[src_cgi/dealfile_cgi.c:42]--mysql:[user=root,pwd=root,database=cloud_disk][2017-07-16 15:42:37]--[src_cgi/dealfile_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2017-07-16 23:43:13]--[src_cgi/dealfile_cgi.c:695]--cmd = share
+[2017-07-16 23:43:13]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "Koala.jpg",
+    "md5": "2b04df3ecc1d94afddff082d139c6f15",
+    "token": "a6cd2423b671e5d5f1faacf91146eb31",
+    "user": "kevin"
+}
+
+[2017-07-16 23:43:13]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = a6cd2423b671e5d5f1faacf91146eb31, md5 = 2b04df3ecc1d94afddff082d139c6f15, filename = Koala.jpg
+[2017-07-16 23:45:44]--[src_cgi/dealfile_cgi.c:695]--cmd = pv
+[2017-07-16 23:45:44]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "Tulips.jpg",
+    "md5": "fafa5efeaf3cbe3b23b2748d13e629a1",
+    "token": "023fe99fbd778113077805620ac3dc37",
+    "user": "kevin"
+}
+
+[2017-07-16 23:45:44]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = 023fe99fbd778113077805620ac3dc37, md5 = fafa5efeaf3cbe3b23b2748d13e629a1, filename = Tulips.jpg

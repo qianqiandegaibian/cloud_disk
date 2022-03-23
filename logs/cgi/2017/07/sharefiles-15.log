@@ -1,0 +1,65 @@
+[2017-07-15 20:00:40]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-15 20:00:40]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2017-07-15 20:00:40]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2017-07-15 20:00:40]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 3,
+    "start": 0
+}
+
+[2017-07-15 20:00:40]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 3
+[2017-07-15 20:00:40]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 3 在操作
+[2017-07-15 20:00:40]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"apple",
+			"md5":	"47e01c4f370a9383320eee9193251e54",
+			"time":	"2017-07-11 09:11:41",
+			"filename":	"Makefile",
+			"share_status":	1,
+			"pv":	2,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllk-BeAZTm4AABnm9LNgrI4534872",
+			"size":	26523,
+			"type":	"null"
+		}, {
+			"user":	"kevin",
+			"md5":	"9d377b10ce778c4938b3c7e2c63a229a",
+			"time":	"2017-07-13 08:57:54",
+			"filename":	"Penguins.jpg",
+			"share_status":	1,
+			"pv":	3,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllnQHaAfkYpAAvea_OGt2M232.jpg",
+			"size":	777835,
+			"type":	"jpg"
+		}, {
+			"user":	"kevin",
+			"md5":	"ba45c8f60456a672e003a875e469d0eb",
+			"time":	"2017-07-13 10:55:58",
+			"filename":	"Desert.jpg",
+			"share_status":	1,
+			"pv":	2,
+			"url":	"http://192.168.1.22:80/group1/M00/00/00/wKgBFllnsHGAG7NzAAzodQCbVVc189.jpg",
+			"size":	845941,
+			"type":	"jpg"
+		}]
+}
+[2017-07-15 20:00:41]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-15 20:00:41]--[src_cgi/sharefiles_cgi.c:85]--line = 3
+[2017-07-15 20:00:41]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2017-07-15 20:00:41]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 3,
+    "start": 0
+}
+
+[2017-07-15 20:00:41]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 3
+[2017-07-15 20:00:41]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 3, redis_num = 3
+[2017-07-15 20:00:41]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"Penguins.jpg",
+			"pv":	3
+		}, {
+			"filename":	"Desert.jpg",
+			"pv":	2
+		}, {
+			"filename":	"Makefile",
+			"pv":	2
+		}]
+}

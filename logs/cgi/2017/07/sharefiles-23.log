@@ -1,0 +1,383 @@
+[2017-07-23 12:10:51]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=root,database=cloud_disk][2017-07-23 12:10:51]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2017-07-23 00:57:03]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 00:57:03]--[src_cgi/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2017-07-23 00:57:03]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2017-07-23 00:57:04]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 00:57:04]--[src_cgi/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2017-07-23 00:57:04]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2017-07-23 07:37:54]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:37:54]--[src_cgi/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2017-07-23 07:37:54]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2017-07-23 07:37:59]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:37:59]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:38:00]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2017-07-23 07:38:00]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:38:00]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:38:00]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2017-07-23 07:38:00]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"833e4e47bde2c682be3fbfef5655d8ba",
+			"time":	"2017-07-23 07:37:57",
+			"filename":	"heart.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.1.25:80/group1/M00/00/00/wKgBGVl0KD2AS-HnAACdx3VQYOM670.png",
+			"size":	40391,
+			"type":	"png"
+		}]
+}
+[2017-07-23 07:38:01]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:38:01]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:38:02]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2017-07-23 07:38:02]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:38:02]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:38:02]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 5
+[2017-07-23 07:38:02]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2017-07-23 07:38:02]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"heart.png",
+			"pv":	0
+		}]
+}
+[2017-07-23 07:38:03]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:38:03]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:38:03]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2017-07-23 07:38:03]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:38:03]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:38:03]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2017-07-23 07:38:03]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"833e4e47bde2c682be3fbfef5655d8ba",
+			"time":	"2017-07-23 07:37:57",
+			"filename":	"heart.png",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.1.25:80/group1/M00/00/00/wKgBGVl0KD2AS-HnAACdx3VQYOM670.png",
+			"size":	40391,
+			"type":	"png"
+		}]
+}
+[2017-07-23 07:38:20]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:38:20]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:38:20]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2017-07-23 07:38:20]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:38:20]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:38:20]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2017-07-23 07:38:20]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"heart.png",
+			"pv":	1
+		}]
+}
+[2017-07-23 07:38:24]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:38:24]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:38:25]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2017-07-23 07:38:25]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:38:25]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:38:25]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2017-07-23 07:38:25]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"833e4e47bde2c682be3fbfef5655d8ba",
+			"time":	"2017-07-23 07:37:57",
+			"filename":	"heart.png",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.1.25:80/group1/M00/00/00/wKgBGVl0KD2AS-HnAACdx3VQYOM670.png",
+			"size":	40391,
+			"type":	"png"
+		}]
+}
+[2017-07-23 07:38:39]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:38:39]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:38:39]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2017-07-23 07:38:39]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:38:39]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:38:39]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2017-07-23 07:38:39]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"833e4e47bde2c682be3fbfef5655d8ba",
+			"time":	"2017-07-23 07:37:57",
+			"filename":	"heart.png",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.1.25:80/group1/M00/00/00/wKgBGVl0KD2AS-HnAACdx3VQYOM670.png",
+			"size":	40391,
+			"type":	"png"
+		}]
+}
+[2017-07-23 07:38:45]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:38:45]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:38:45]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2017-07-23 07:38:45]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:38:45]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:38:45]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2017-07-23 07:38:45]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"833e4e47bde2c682be3fbfef5655d8ba",
+			"time":	"2017-07-23 07:37:57",
+			"filename":	"heart.png",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.1.25:80/group1/M00/00/00/wKgBGVl0KD2AS-HnAACdx3VQYOM670.png",
+			"size":	40391,
+			"type":	"png"
+		}]
+}
+[2017-07-23 07:38:52]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:38:52]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:38:52]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2017-07-23 07:38:52]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:38:52]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:38:52]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2017-07-23 07:38:52]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"833e4e47bde2c682be3fbfef5655d8ba",
+			"time":	"2017-07-23 07:37:57",
+			"filename":	"heart.png",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.1.25:80/group1/M00/00/00/wKgBGVl0KD2AS-HnAACdx3VQYOM670.png",
+			"size":	40391,
+			"type":	"png"
+		}]
+}
+[2017-07-23 07:38:55]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:38:55]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:38:56]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2017-07-23 07:38:56]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:38:56]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:38:56]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2017-07-23 07:38:56]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"833e4e47bde2c682be3fbfef5655d8ba",
+			"time":	"2017-07-23 07:37:57",
+			"filename":	"heart.png",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.1.25:80/group1/M00/00/00/wKgBGVl0KD2AS-HnAACdx3VQYOM670.png",
+			"size":	40391,
+			"type":	"png"
+		}]
+}
+[2017-07-23 07:38:56]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:38:56]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:38:56]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2017-07-23 07:38:56]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:38:56]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:38:56]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2017-07-23 07:38:56]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"heart.png",
+			"pv":	1
+		}]
+}
+[2017-07-23 07:38:57]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:38:57]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:38:58]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2017-07-23 07:38:58]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:38:58]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:38:58]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2017-07-23 07:38:58]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"833e4e47bde2c682be3fbfef5655d8ba",
+			"time":	"2017-07-23 07:37:57",
+			"filename":	"heart.png",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.1.25:80/group1/M00/00/00/wKgBGVl0KD2AS-HnAACdx3VQYOM670.png",
+			"size":	40391,
+			"type":	"png"
+		}]
+}
+[2017-07-23 07:39:01]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:39:01]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:39:01]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2017-07-23 07:39:01]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:39:01]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:39:01]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2017-07-23 07:39:01]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"heart.png",
+			"pv":	1
+		}]
+}
+[2017-07-23 07:39:02]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:39:02]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:39:02]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2017-07-23 07:39:02]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:39:02]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:39:02]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2017-07-23 07:39:02]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"833e4e47bde2c682be3fbfef5655d8ba",
+			"time":	"2017-07-23 07:37:57",
+			"filename":	"heart.png",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.1.25:80/group1/M00/00/00/wKgBGVl0KD2AS-HnAACdx3VQYOM670.png",
+			"size":	40391,
+			"type":	"png"
+		}]
+}
+[2017-07-23 07:39:14]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:39:14]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:39:14]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2017-07-23 07:39:14]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:39:14]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:39:14]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2017-07-23 07:39:14]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"833e4e47bde2c682be3fbfef5655d8ba",
+			"time":	"2017-07-23 07:37:57",
+			"filename":	"heart.png",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.1.25:80/group1/M00/00/00/wKgBGVl0KD2AS-HnAACdx3VQYOM670.png",
+			"size":	40391,
+			"type":	"png"
+		}]
+}
+[2017-07-23 07:39:15]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:39:15]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:39:15]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2017-07-23 07:39:15]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:39:15]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:39:15]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2017-07-23 07:39:15]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"heart.png",
+			"pv":	1
+		}]
+}
+[2017-07-23 07:39:17]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:39:17]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:39:17]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2017-07-23 07:39:17]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:39:17]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:39:17]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2017-07-23 07:39:17]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"833e4e47bde2c682be3fbfef5655d8ba",
+			"time":	"2017-07-23 07:37:57",
+			"filename":	"heart.png",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.1.25:80/group1/M00/00/00/wKgBGVl0KD2AS-HnAACdx3VQYOM670.png",
+			"size":	40391,
+			"type":	"png"
+		}]
+}
+[2017-07-23 07:39:26]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:39:26]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:39:26]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2017-07-23 07:39:26]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:39:26]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:39:26]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2017-07-23 07:39:26]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"heart.png",
+			"pv":	1
+		}]
+}
+[2017-07-23 07:39:28]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2017-07-23 07:39:28]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2017-07-23 07:39:28]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2017-07-23 07:39:28]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2017-07-23 07:39:28]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2017-07-23 07:39:28]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2017-07-23 07:39:28]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"kevin",
+			"md5":	"833e4e47bde2c682be3fbfef5655d8ba",
+			"time":	"2017-07-23 07:37:57",
+			"filename":	"heart.png",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.1.25:80/group1/M00/00/00/wKgBGVl0KD2AS-HnAACdx3VQYOM670.png",
+			"size":	40391,
+			"type":	"png"
+		}]
+}

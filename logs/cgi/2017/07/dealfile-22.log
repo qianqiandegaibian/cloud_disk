@@ -1,0 +1,9 @@
+[2017-07-22 21:31:24]--[src_cgi/dealfile_cgi.c:695]--cmd = pv
+[2017-07-22 21:31:24]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "Hydrangeas.jpg",
+    "md5": "bdf3bf1da3405725be763540d6601144",
+    "token": "41dc80dd6cfe88a28e0aa553c403e3dc",
+    "user": "kevin"
+}
+
+[2017-07-22 21:31:24]--[src_cgi/dealfile_cgi.c:730]--user = kevin, token = 41dc80dd6cfe88a28e0aa553c403e3dc, md5 = bdf3bf1da3405725be763540d6601144, filename = Hydrangeas.jpg
